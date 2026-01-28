@@ -21,7 +21,8 @@ public class LeerArchivoTexto {
 
             while (entrada.hasNext()) {
                 String linea = entrada.nextLine();
-                List<String> lista = Arrays.asList(linea.split("\\|"));
+                List<String> lista = Arrays.asList(linea.split("\\|")); // Para que java sepa formalmente que 
+                                                                        // se usará un pipe
                 ArrayList<String> linea_partes = new ArrayList<>(lista);
                 
                 
