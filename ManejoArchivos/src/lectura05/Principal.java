@@ -10,5 +10,13 @@ package lectura05;
  * @author msjim
  */
 public class Principal {
+    public static void main( String args[]){
+        double promedio = Estadistica.promedio();
+        System.out.printf("El promedio es : %.2f\n", promedio);
+     
+    
+    
+    
+    }
     
 }
