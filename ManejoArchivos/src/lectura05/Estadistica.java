@@ -43,7 +43,7 @@ public class Estadistica {
 
                 } catch (Exception e) {
                    
-                    System.err.println("Error ignorado en un registro: " + e.getMessage());
+                    System.err.printf("Error ignorado en un registro: %s\n", e.getMessage());
                     
                 }
             }
